@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 450px !important;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #11e38b,rgb(197, 232, 234), #a2a2d0 , pink);
+
+}
+
+.container .buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    height: 80px;
+    font-size: 35px;
+    font-weight: 500;
+    box-shadow: 1px 1px 3px violet;
+    color: rgb(15, 21, 23);
+    background-color: rgb(218, 226, 226);
+}
+/* #tnput_text{
+    font-weight: 500;
+    margin-top: 20px;
+} */
+
+.container .buttons .btn{
+    /* background-color: aliceblue; */
+    height: 58px;
+    max-width: 78px;
+    /* padding: 10px; */
+    margin:20px 10px;
+    font-weight: 500;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(18, 18, 41);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(169, 184, 166),rgb(113, 36, 236)) ;
+}
+
+.operator-clear-btn{
+    background-image: linear-gradient(to right,red,red)!important;
+}
+
+.operator-btn{
+    background-image: linear-gradient(to right,orange,orange)!important;
+}
